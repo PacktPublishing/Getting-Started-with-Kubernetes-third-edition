@@ -1,0 +1,10 @@
+{
+  "name": "http-whalesay",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Node.js version of whalesay",
+  "author": "jonbaierCTP",
+  "dependencies": {
+    "express": "4.13.1"
+  }
+}

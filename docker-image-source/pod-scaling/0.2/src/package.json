@@ -1,0 +1,10 @@
+{
+  "name": "node-express-info",
+  "private": true,
+  "version": "0.0.2",
+  "description": "Node.js container info",
+  "author": "jonbaierCTP",
+  "dependencies": {
+    "express": "4.13.1"
+  }
+}
