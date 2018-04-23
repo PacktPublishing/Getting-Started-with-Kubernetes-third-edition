@@ -1,0 +1,18 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: name-based-hosting
+spec:
+  rules:
+  - host: example01.foo.com
+    http:
+      paths:
+      - backend:
+          serviceName: sevice01
+          servicePort: 8080
+  - host: example02.foo.com
+    http:
+      paths:
+      - backend:
+          serviceName: sevice02
+          servicePort: 8080
