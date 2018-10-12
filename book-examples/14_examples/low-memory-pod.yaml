@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+	name: low-mem-demo
+spec:
+	containers:
+	- name: low-mem-demo
+		image: redis
