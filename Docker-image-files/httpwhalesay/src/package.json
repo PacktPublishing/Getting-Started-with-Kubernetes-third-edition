@@ -5,6 +5,6 @@
   "description": "Node.js version of whalesay",
   "author": "jonbaierCTP",
   "dependencies": {
-    "express": "4.13.1"
+    "express": "4.19.2"
   }
 }
